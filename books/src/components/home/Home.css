@@ -1,0 +1,51 @@
+.home-main-container{
+      font-family: 'Asap', sans-serif;
+      position: absolute;
+      z-index: 3;
+      top: 35%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin: 0 auto;
+      padding: 12px 48px;
+      gap: 12px;
+}
+
+.home-desc{
+      align-self: flex-start;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      align-items: flex-start;
+      width: 35%;
+}
+
+.home-desc .home-title{
+      font-size: 50px;
+      letter-spacing: 1px;
+}
+.home-desc .home-text{
+      font-size: 18px;
+      line-height: 1.5;
+      margin-bottom: 3rem;
+}
+
+
+.home-img-container{
+      width: 60%;
+}
+.home-btn{
+      font-size: 1rem;
+      padding: 0.8em 2em;
+      background-color: #000;
+      border: 3px solid #d8dd64;
+      border-radius: 1em;
+      color: #fff;
+      font-weight: bolder;
+      transition: cubic-bezier(0.68, -0.55, 0.265, 1.55) 0.4s;
+      box-shadow: -5px 5px 0px 0px #d8dd64;
+      cursor: pointer;
+    }
+.home-btn:hover {
+      transform: translate(5px, -5px);
+    }

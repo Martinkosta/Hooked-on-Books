@@ -1,0 +1,74 @@
+.details-container{
+      font-family: 'Asap', sans-serif;
+      position: absolute;
+      z-index: 2;
+      top: 25%;
+      width: 80%;
+     margin: 0px 100px;
+      background-color: yellow;
+      padding: 12px 24px;
+      border-radius: 12px;
+      display: flex;
+      justify-content: space-around;
+      background: linear-gradient(120deg, #d8dd64  30%,rgb(255, 174, 145) 88%,
+      bisque 40%, rgb(255, 185, 160) 78%);
+}
+.details-img{
+      width: 45%;
+      margin: 24px 0px;
+      margin-left: 40px;
+}
+.details-img img{
+      border-radius: 12px;
+      width: 310px;
+      height: 450px;
+}
+
+.details-content{   
+      width: 40%;
+      margin: 24px 0px;
+
+}
+.details-content .lable{
+      margin: 10px 0px;
+      color: #3e4a3d;
+      font-size: 26px;
+      font-weight: 600;
+      letter-spacing: 1px;
+}
+
+.details-container .book-info{
+      color: black;
+      font-size: 25px;
+      font-weight: 600;
+      margin: 10px;
+}
+.title-wrapper{
+      text-align: center;
+      margin-bottom: 50px;
+}
+.title-wrapper .book-info{
+      font-size: 40px;
+      font-weight: 700;
+      letter-spacing: 1px;
+}
+
+.owner-btns{
+      display: flex;
+      gap: 24px;
+      margin-top: 40px;
+      align-items: center;
+}
+
+.btn.btn-delete{
+      background-color: red;
+}
+
+.wish-text{
+      background: linear-gradient(120deg, #96b1ac  30%,#d8dd64 88%,
+      bisque 40%,  #d8dd64 78%);
+      padding: 20px;
+      border-radius: 12px;
+      font-size: 22px;
+      font-weight: 600;
+}

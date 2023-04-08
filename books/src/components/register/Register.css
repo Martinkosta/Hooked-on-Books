@@ -1,0 +1,109 @@
+.container.register{
+      font-family: 'Asap', sans-serif;
+      margin-top: 50px;
+      height: 80vh;
+      width: 35vw;
+      position: absolute;
+      top:50%;
+      left: 50%;
+      background-color: #9ec4b2;
+      transform:translate(-50%,-50%);
+      z-index: 3;
+      border-radius: 24px;      
+    
+}
+.register-title{
+      text-align: center;
+     margin-bottom: 80px;
+     margin-top: 40px;
+      font-size: 35px;
+      
+      text-transform: uppercase;
+}
+
+.form{
+     
+      display: flex;
+      position: absolute;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      height: 60%;
+      width: 100%;    
+      gap: 16px;
+      margin-top: 20px;
+}
+.input-container{
+      display: flex;
+      flex-direction: column;
+   
+      gap: 4px;
+      width: 75%;
+}
+.form-input{
+      padding: 8px 12px;
+      border: 1px solid black;
+      border-radius: 12px;
+      background-color: transparent;
+      transition: all 200ms ease-in;
+      font-size: 18px;
+      font-weight: 500;
+      
+}
+.form-input-error{
+      transition: all 300ms linear;
+      border: 2px solid red;
+}
+.form-input:focus{
+      transform: scale(1.1);
+}
+.form-label{
+      font-size: 22px;
+      font-weight: 500;
+      margin-left: 5px;
+}
+.form-label-error{
+      transition: all 300ms linear;
+     
+      color: red;
+}
+
+.btn{
+      all: unset;
+      background-color: #058a86;
+      padding: 12px 48px;
+      border-radius: 12px;
+      margin-top: 25px;
+      margin-bottom: 20px;
+      cursor: pointer;
+      font-size: 20px;
+      font-weight: 600;
+      transition: all 200ms linear;
+}
+.btn:hover{
+      background-color: #1d6877;
+      transform: scale(1.2);
+      color: white;
+}
+.errorBox{
+     
+      animation: fade-in 300ms linear  forwards;
+      color: red;
+      font-size: 1.2rem;
+}
+
+@keyframes fade-in{
+      from{
+            transform: scale(0);
+           opacity: 0;
+      }
+      50%{
+            transform: scale(1.1);
+            opacity: 0.5;
+      }
+      to{
+            transform: scale(1);
+            opacity: 1;;
+            font-weight: 500;
+      }
+}
